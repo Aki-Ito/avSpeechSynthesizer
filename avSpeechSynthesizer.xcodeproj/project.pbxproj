@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C91EB56268CAA9A0042CC63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C91EB55268CAA9A0042CC63 /* AppDelegate.swift */; };
+		2C91EB58268CAA9A0042CC63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C91EB57268CAA9A0042CC63 /* SceneDelegate.swift */; };
+		2C91EB5A268CAA9A0042CC63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C91EB59268CAA9A0042CC63 /* ViewController.swift */; };
+		2C91EB5D268CAA9A0042CC63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C91EB5B268CAA9A0042CC63 /* Main.storyboard */; };
+		2C91EB5F268CAA9F0042CC63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C91EB5E268CAA9F0042CC63 /* Assets.xcassets */; };
+		2C91EB62268CAA9F0042CC63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C91EB60268CAA9F0042CC63 /* LaunchScreen.storyboard */; };
+		2C91EB6D268CAA9F0042CC63 /* avSpeechSynthesizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C91EB6C268CAA9F0042CC63 /* avSpeechSynthesizerTests.swift */; };
+		2C91EB78268CAA9F0042CC63 /* avSpeechSynthesizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C91EB77268CAA9F0042CC63 /* avSpeechSynthesizerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C91EB69268CAA9F0042CC63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C91EB4A268CAA9A0042CC63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C91EB51268CAA9A0042CC63;
+			remoteInfo = avSpeechSynthesizer;
+		};
+		2C91EB74268CAA9F0042CC63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C91EB4A268CAA9A0042CC63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C91EB51268CAA9A0042CC63;
+			remoteInfo = avSpeechSynthesizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C91EB52268CAA9A0042CC63 /* avSpeechSynthesizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = avSpeechSynthesizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C91EB55268CAA9A0042CC63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C91EB57268CAA9A0042CC63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2C91EB59268CAA9A0042CC63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C91EB5C268CAA9A0042CC63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C91EB5E268CAA9F0042CC63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C91EB61268CAA9F0042CC63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C91EB63268CAA9F0042CC63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C91EB68268CAA9F0042CC63 /* avSpeechSynthesizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = avSpeechSynthesizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C91EB6C268CAA9F0042CC63 /* avSpeechSynthesizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = avSpeechSynthesizerTests.swift; sourceTree = "<group>"; };
+		2C91EB6E268CAA9F0042CC63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C91EB73268CAA9F0042CC63 /* avSpeechSynthesizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = avSpeechSynthesizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C91EB77268CAA9F0042CC63 /* avSpeechSynthesizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = avSpeechSynthesizerUITests.swift; sourceTree = "<group>"; };
+		2C91EB79268CAA9F0042CC63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C91EB4F268CAA9A0042CC63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C91EB65268CAA9F0042CC63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C91EB70268CAA9F0042CC63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C91EB49268CAA9A0042CC63 = {
+			isa = PBXGroup;
+			children = (
+				2C91EB54268CAA9A0042CC63 /* avSpeechSynthesizer */,
+				2C91EB6B268CAA9F0042CC63 /* avSpeechSynthesizerTests */,
+				2C91EB76268CAA9F0042CC63 /* avSpeechSynthesizerUITests */,
+				2C91EB53268CAA9A0042CC63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C91EB53268CAA9A0042CC63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C91EB52268CAA9A0042CC63 /* avSpeechSynthesizer.app */,
+				2C91EB68268CAA9F0042CC63 /* avSpeechSynthesizerTests.xctest */,
+				2C91EB73268CAA9F0042CC63 /* avSpeechSynthesizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C91EB54268CAA9A0042CC63 /* avSpeechSynthesizer */ = {
+			isa = PBXGroup;
+			children = (
+				2C91EB55268CAA9A0042CC63 /* AppDelegate.swift */,
+				2C91EB57268CAA9A0042CC63 /* SceneDelegate.swift */,
+				2C91EB59268CAA9A0042CC63 /* ViewController.swift */,
+				2C91EB5B268CAA9A0042CC63 /* Main.storyboard */,
+				2C91EB5E268CAA9F0042CC63 /* Assets.xcassets */,
+				2C91EB60268CAA9F0042CC63 /* LaunchScreen.storyboard */,
+				2C91EB63268CAA9F0042CC63 /* Info.plist */,
+			);
+			path = avSpeechSynthesizer;
+			sourceTree = "<group>";
+		};
+		2C91EB6B268CAA9F0042CC63 /* avSpeechSynthesizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C91EB6C268CAA9F0042CC63 /* avSpeechSynthesizerTests.swift */,
+				2C91EB6E268CAA9F0042CC63 /* Info.plist */,
+			);
+			path = avSpeechSynthesizerTests;
+			sourceTree = "<group>";
+		};
+		2C91EB76268CAA9F0042CC63 /* avSpeechSynthesizerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C91EB77268CAA9F0042CC63 /* avSpeechSynthesizerUITests.swift */,
+				2C91EB79268CAA9F0042CC63 /* Info.plist */,
+			);
+			path = avSpeechSynthesizerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C91EB51268CAA9A0042CC63 /* avSpeechSynthesizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C91EB7C268CAA9F0042CC63 /* Build configuration list for PBXNativeTarget "avSpeechSynthesizer" */;
+			buildPhases = (
+				2C91EB4E268CAA9A0042CC63 /* Sources */,
+				2C91EB4F268CAA9A0042CC63 /* Frameworks */,
+				2C91EB50268CAA9A0042CC63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = avSpeechSynthesizer;
+			productName = avSpeechSynthesizer;
+			productReference = 2C91EB52268CAA9A0042CC63 /* avSpeechSynthesizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C91EB67268CAA9F0042CC63 /* avSpeechSynthesizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C91EB7F268CAA9F0042CC63 /* Build configuration list for PBXNativeTarget "avSpeechSynthesizerTests" */;
+			buildPhases = (
+				2C91EB64268CAA9F0042CC63 /* Sources */,
+				2C91EB65268CAA9F0042CC63 /* Frameworks */,
+				2C91EB66268CAA9F0042CC63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C91EB6A268CAA9F0042CC63 /* PBXTargetDependency */,
+			);
+			name = avSpeechSynthesizerTests;
+			productName = avSpeechSynthesizerTests;
+			productReference = 2C91EB68268CAA9F0042CC63 /* avSpeechSynthesizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C91EB72268CAA9F0042CC63 /* avSpeechSynthesizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C91EB82268CAA9F0042CC63 /* Build configuration list for PBXNativeTarget "avSpeechSynthesizerUITests" */;
+			buildPhases = (
+				2C91EB6F268CAA9F0042CC63 /* Sources */,
+				2C91EB70268CAA9F0042CC63 /* Frameworks */,
+				2C91EB71268CAA9F0042CC63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C91EB75268CAA9F0042CC63 /* PBXTargetDependency */,
+			);
+			name = avSpeechSynthesizerUITests;
+			productName = avSpeechSynthesizerUITests;
+			productReference = 2C91EB73268CAA9F0042CC63 /* avSpeechSynthesizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C91EB4A268CAA9A0042CC63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					2C91EB51268CAA9A0042CC63 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					2C91EB67268CAA9F0042CC63 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 2C91EB51268CAA9A0042CC63;
+					};
+					2C91EB72268CAA9F0042CC63 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 2C91EB51268CAA9A0042CC63;
+					};
+				};
+			};
+			buildConfigurationList = 2C91EB4D268CAA9A0042CC63 /* Build configuration list for PBXProject "avSpeechSynthesizer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C91EB49268CAA9A0042CC63;
+			productRefGroup = 2C91EB53268CAA9A0042CC63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C91EB51268CAA9A0042CC63 /* avSpeechSynthesizer */,
+				2C91EB67268CAA9F0042CC63 /* avSpeechSynthesizerTests */,
+				2C91EB72268CAA9F0042CC63 /* avSpeechSynthesizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C91EB50268CAA9A0042CC63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C91EB62268CAA9F0042CC63 /* LaunchScreen.storyboard in Resources */,
+				2C91EB5F268CAA9F0042CC63 /* Assets.xcassets in Resources */,
+				2C91EB5D268CAA9A0042CC63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C91EB66268CAA9F0042CC63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C91EB71268CAA9F0042CC63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C91EB4E268CAA9A0042CC63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C91EB5A268CAA9A0042CC63 /* ViewController.swift in Sources */,
+				2C91EB56268CAA9A0042CC63 /* AppDelegate.swift in Sources */,
+				2C91EB58268CAA9A0042CC63 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C91EB64268CAA9F0042CC63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C91EB6D268CAA9F0042CC63 /* avSpeechSynthesizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C91EB6F268CAA9F0042CC63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C91EB78268CAA9F0042CC63 /* avSpeechSynthesizerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C91EB6A268CAA9F0042CC63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C91EB51268CAA9A0042CC63 /* avSpeechSynthesizer */;
+			targetProxy = 2C91EB69268CAA9F0042CC63 /* PBXContainerItemProxy */;
+		};
+		2C91EB75268CAA9F0042CC63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C91EB51268CAA9A0042CC63 /* avSpeechSynthesizer */;
+			targetProxy = 2C91EB74268CAA9F0042CC63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C91EB5B268CAA9A0042CC63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C91EB5C268CAA9A0042CC63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C91EB60268CAA9F0042CC63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C91EB61268CAA9F0042CC63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C91EB7A268CAA9F0042CC63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C91EB7B268CAA9F0042CC63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C91EB7D268CAA9F0042CC63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CNG5L6KZNS;
+				INFOPLIST_FILE = avSpeechSynthesizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.akki.ito.avSpeechSynthesizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C91EB7E268CAA9F0042CC63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CNG5L6KZNS;
+				INFOPLIST_FILE = avSpeechSynthesizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.akki.ito.avSpeechSynthesizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C91EB80268CAA9F0042CC63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CNG5L6KZNS;
+				INFOPLIST_FILE = avSpeechSynthesizerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.akki.ito.avSpeechSynthesizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/avSpeechSynthesizer.app/avSpeechSynthesizer";
+			};
+			name = Debug;
+		};
+		2C91EB81268CAA9F0042CC63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CNG5L6KZNS;
+				INFOPLIST_FILE = avSpeechSynthesizerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.akki.ito.avSpeechSynthesizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/avSpeechSynthesizer.app/avSpeechSynthesizer";
+			};
+			name = Release;
+		};
+		2C91EB83268CAA9F0042CC63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CNG5L6KZNS;
+				INFOPLIST_FILE = avSpeechSynthesizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.akki.ito.avSpeechSynthesizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = avSpeechSynthesizer;
+			};
+			name = Debug;
+		};
+		2C91EB84268CAA9F0042CC63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CNG5L6KZNS;
+				INFOPLIST_FILE = avSpeechSynthesizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.akki.ito.avSpeechSynthesizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = avSpeechSynthesizer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C91EB4D268CAA9A0042CC63 /* Build configuration list for PBXProject "avSpeechSynthesizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C91EB7A268CAA9F0042CC63 /* Debug */,
+				2C91EB7B268CAA9F0042CC63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C91EB7C268CAA9F0042CC63 /* Build configuration list for PBXNativeTarget "avSpeechSynthesizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C91EB7D268CAA9F0042CC63 /* Debug */,
+				2C91EB7E268CAA9F0042CC63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C91EB7F268CAA9F0042CC63 /* Build configuration list for PBXNativeTarget "avSpeechSynthesizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C91EB80268CAA9F0042CC63 /* Debug */,
+				2C91EB81268CAA9F0042CC63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C91EB82268CAA9F0042CC63 /* Build configuration list for PBXNativeTarget "avSpeechSynthesizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C91EB83268CAA9F0042CC63 /* Debug */,
+				2C91EB84268CAA9F0042CC63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C91EB4A268CAA9A0042CC63 /* Project object */;
+}
